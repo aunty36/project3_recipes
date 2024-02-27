@@ -10,12 +10,34 @@ h1 {
 
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 10em 30vh auto 10em;
+  grid-template-columns: 1fr 5fr 2fr 1fr;
+
   grid-template-areas:
     'header header header header'
-    'main main main sidebar'
+    'hero hero hero hero '
+    '. main sidebar .'
     'footer footer footer footer';
   gap: 1em;
   background-color: #f2eeeb;
+}
+
+header {
+  grid-area: header;
+}
+
+sidebar {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}
+
+main {
+  grid-area: main;
+}
+
+.hero {
+  grid-area: hero;
 }
