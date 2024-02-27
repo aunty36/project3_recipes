@@ -1,0 +1,877 @@
+{
+  "recipes": [
+    {
+      "recipe_name": "Pasta alla Norma",
+      "vegetarian": true,
+      "recipe_id": "r1",
+      "recipe_desc": "Pasta alla Norma is an eggplant-based, Sicilian pasta dish with marinara and basil. The eggplant is roasted instead of fried.",
+      "recipe_cuisine": {
+        "region": "Europe",
+        "country": "Italy",
+        "flag": "https://en.wikipedia.org/wiki/Flag_of_Italy#/media/File:Flag_of_Italy.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/pasta-with-red-sauce-on-white-ceramic-round-plate-qits91IZv1o",
+      "recipe_category": "entree",
+      "recipe_tags": ["weekday warrior", "healthy", "family style"],
+      "main ingredients": {
+        "first": "pasta",
+        "second": "tomatoes",
+        "third": "eggplant",
+        "fourth": "basil"
+      },
+      "time": {
+        "cook": 50,
+        "prep": 20,
+        "total": 70
+      },
+      "difficulty": "medium",
+      "method": ["roasted", "stovetop"],
+      "rating": "4 stars",
+      "drink_pairing": {
+        "red": { "name": "Pinot Noir", "price": "15.00", "LCBO": true },
+        "white": { "name": null, "price": null, "LCBO": null },
+        "alt": { "name": "Aperol Spritz", "price": "12.00", "LCBO": true }
+      },
+      "recipe_cost": "$$",
+      "yield": "4 servings",
+      "recipe_link": "https://cookieandkate.com/pasta-alla-norma-recipe/"
+    },
+    {
+      "recipe_name": "Coconut Milk Fudge",
+      "vegetarian": true,
+      "recipe_id": "r2",
+      "recipe_desc": "A delicious condensed milk dessert beloved by Caribbean, Latin American and Southeast Asian natives and foodies alike.",
+      "recipe_cuisine": {
+        "region": [
+          "Caribbean",
+          "South America",
+          "Latin America",
+          "Southeast Asia"
+        ],
+        "country": ["Trinidad", "Brazil", "Thailand", "Brazil"],
+        "flag": null
+      },
+      "recipe_photo": "https://unsplash.com/photos/brown-and-black-ceramic-bowl-on-brown-wooden-table-mWNP70I5o-g",
+      "recipe_category": "dessert",
+      "recipe_tags": ["gluten free", "decadent", "sharing"],
+      "main ingredients": {
+        "first": "condensed milk",
+        "second": "shredded coconut",
+        "third": "corn syrup",
+        "fourth": "unsalted butter"
+      },
+      "time": {
+        "cook": 10,
+        "prep": 10,
+        "total": 25
+      },
+      "difficulty": "easy",
+      "method": ["null", "stovetop"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": null },
+        "white": { "name": null, "price": null, "LCBO": null },
+        "alt": { "name": "Brio", "price": 2.0, "LCBO": false }
+      },
+      "recipe_cost": "$",
+      "yield": "20-30 candies",
+      "recipe_link": "https://smittenkitchen.com/2010/03/coconut-milk-fudge/"
+    },
+    {
+      "recipe_name": "Galbi Jjim - Korean Braised Short Ribs",
+      "vegetarian": false,
+      "recipe_id": "r3",
+      "recipe_desc": "Want to break in that new Instant Pot/slow cooker? And have a hankering for delicious meat? Then this is the perfect recipe for you.",
+      "recipe_cuisine": {
+        "region": "Asia",
+        "country": "Korea",
+        "flag": "https://www.freepik.com/free-vector/illustration-south-korea-flag_2922518.htm#query=korea%20flag&position=0&from_view=keyword&track=ais&uuid=bb154fc8-9573-4f3a-aac3-5e244b85efe2"
+      },
+      "recipe_photo": "https://unsplash.com/photos/grilled-meat-platter-RbI-U-WRuLw",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["instant pot", "decadentslow cooker", "sharing"],
+      "main ingredients": {
+        "first": "boneless beef short ribs",
+        "second": "mirin or apple juice",
+        "third": "carrots",
+        "fourth": "soy sauce"
+      },
+      "time": {
+        "cook": 180,
+        "prep": 30,
+        "total": 210
+      },
+      "difficulty": "easy",
+      "method": ["instant pot", "slow cooker"],
+      "rating": "3 stars",
+      "drink_pairing": {
+        "red": { "name": "Chianti", "price": 15.0, "LCBO": true },
+        "white": { "name": "White Zinfandel", "price": 12.0, "LCBO": true },
+        "non_alc": { "name": "Lake City Cider", "price": 4.0, "LCBO": false }
+      },
+      "recipe_cost": "$$$",
+      "yield": "6-8 servings",
+      "recipe_link": "https://smittenkitchen.com/2018/02/korean-braised-short-ribs/"
+    },
+    {
+      "recipe_name": "Baked French Toast Casserole",
+      "vegetarian": true,
+      "recipe_id": "r4",
+      "recipe_desc": "An easy and impressive brunch main for the lazy host. Pair with a homemade fruit sauce and watch your guests (or you) demolish this amazing goodness.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US - South",
+        "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/brown-bread-on-white-ceramic-plate-SDMmCp4on3k",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["casserole", "brunch", "overnight prep"],
+      "main ingredients": {
+        "first": "Challah bread",
+        "second": "eggs",
+        "third": "cinnamon",
+        "fourth": "nutmeg"
+      },
+      "time": {
+        "cook": 45,
+        "prep": 20,
+        "total": 65
+      },
+      "difficulty": "medium",
+      "method": ["stovetop", "oven"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": null },
+        "white": { "name": null, "price": null, "LCBO": null },
+        "alt": { "name": "Mimosa", "price": null, "LCBO": false }
+      },
+      "recipe_cost": "$$",
+      "yield": "6-8 servings",
+      "recipe_link": "https://www.pauladeen.com/recipe/baked-french-toast-casserole/"
+    },
+    {
+      "recipe_name": "Chickpea Noodle Soup",
+      "vegetarian": true,
+      "recipe_id": "r5",
+      "recipe_desc": "The vegetarian alternative to the classic chicken noodle soup. Perfect for a gloomy, dreary day or when you're feeling in the mood for some cozy, gastronomic comfort. ",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/a-bowl-of-food-with-broccoli-and-chickpeas-IA0iyiBPfDM",
+      "recipe_category": "Soup",
+      "recipe_tags": ["comfort food", "soup", "cozy"],
+      "main ingredients": {
+        "first": "chickpeas",
+        "second": "broth",
+        "third": "miso paste",
+        "fourth": "pasta"
+      },
+      "time": {
+        "cook": 25,
+        "prep": 15,
+        "total": 40
+      },
+      "difficulty": "easy",
+      "method": ["stovetop", null],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": "Pinot Noir", "price": 11.5, "LCBO": true },
+        "white": { "name": "Sauvignon Blanc", "price": 18.0, "LCBO": true },
+        "alt": { "name": "Hot Toddy", "price": null, "LCBO": false }
+      },
+      "recipe_cost": "$",
+      "yield": "6 bowls",
+      "recipe_link": "https://cookieandkate.com/chickpea-noodle-soup-recipe/"
+    },
+    {
+      "recipe_name": "Pelau",
+      "vegetarian": false,
+      "recipe_id": "r6",
+      "recipe_desc": "Though this traditional rice dish of Trinidad can be made vegetarian, it is traditionally made with chicken for an added flavour profile. ",
+      "recipe_cuisine": {
+        "region": "Caribbean",
+        "country": "Trinidad",
+        "flag": "https://en.wikipedia.org/wiki/Flag_of_Trinidad_and_Tobago#/media/File:Flag_of_Trinidad_and_Tobago.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/fried-rice-on-ceramic-plate-kdB88FBL8bs",
+      "recipe_category": "Main",
+      "recipe_tags": ["comfort food", "one pot", "rice"],
+      "main ingredients": {
+        "first": "rice",
+        "second": "chicken",
+        "third": "coconut milk",
+        "fourth": "pigeon peas"
+      },
+      "time": {
+        "cook": 25,
+        "prep": 15,
+        "total": 40
+      },
+      "difficulty": "hard",
+      "method": ["stovetop", "oven"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": "Cabernet Sauvignon", "price": 11.5, "LCBO": true },
+        "white": { "name": "Pinot Griot", "price": 14.95, "LCBO": true },
+        "alt": { "name": "Carib", "price": 5.0, "LCBO": false }
+      },
+      "recipe_cost": "$$",
+      "yield": "8-10 servings",
+      "recipe_link": "https://caribbeanpot.com/pelau-the-first-guest-invited-to-every-beach-lime/"
+    },
+    {
+      "recipe_name": "Tarka Dhal",
+      "vegetarian": true,
+      "recipe_id": "r8",
+      "recipe_desc": "A hearty and nourishing main or side, tarka is the name given to the infused hot oil which is poured into the dhal to give this classic Indian dish, giving it its complex flavour and incredible aroma. A thinner version of the dhal makes a great soup, or when made thicker, can be eaten with rice or naan.",
+      "recipe_cuisine": {
+        "region": "South Asia",
+        "country": "India",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/sliced-orange-fruit-beside-white-ceramic-bowl-with-green-soup-iEJ3GhgO3jY",
+      "recipe_category": "Lunch",
+      "recipe_tags": ["comfort food", "batch cooking", "light"],
+      "main ingredients": {
+        "first": "red lentils",
+        "second": "tumeric",
+        "third": "coconut milk",
+        "fourth": "ginger"
+      },
+      "time": {
+        "cook": 20,
+        "prep": 5,
+        "total": 25
+      },
+      "difficulty": "easy",
+      "method": ["stovetop", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": "Cabernet Sauvignon", "price": 11.5, "LCBO": true },
+        "white": { "name": "Pinot Griot", "price": 14.95, "LCBO": true },
+        "alt": { "name": "Iced Chai", "price": null, "LCBO": false }
+      },
+      "recipe_cost": "$",
+      "yield": "4 servings",
+      "recipe_link": "https://www.wearesovegan.com/tarka-dhal/"
+    },
+    {
+      "recipe_name": "Easy Lemon-y Herb-y Chicken Thighs",
+      "vegetarian": false,
+      "recipe_id": "r9",
+      "recipe_desc": "Want tender roast chicken without having to, well...roast a chicken? This hack using bone-in, skin-on chicken thighs, lemons and a variety of herbs gets you right where your tastebuds want to be without the hassle.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "Canada",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/sliced-orange-fruit-beside-white-ceramic-bowl-with-green-soup-iEJ3GhgO3jY",
+      "recipe_category": "entree",
+      "recipe_tags": ["gluten free", "grain free", "quick dinner"],
+      "main ingredients": {
+        "first": "chicken thighs",
+        "second": "lemons",
+        "third": "italian herbs",
+        "fourth": "garlic powder"
+      },
+      "time": {
+        "cook": 20,
+        "prep": 5,
+        "total": 25
+      },
+      "difficulty": "easy",
+      "method": ["stovetop", "oven"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": "Cabernet Sauvignon", "price": 11.5, "LCBO": true },
+        "white": {
+          "name": "California Chardonnay",
+          "price": 20.95,
+          "LCBO": true
+        },
+        "alt": { "name": "White Claw", "price": 31.95, "LCBO": true }
+      },
+      "recipe_cost": "$$",
+      "yield": "4 servings",
+      "recipe_link": "https://minimalistbaker.com/lemon-herb-roasted-chicken-thighs/"
+    },
+    {
+      "recipe_name": "Chewy Ginger Molasses Cookies",
+      "vegetarian": true,
+      "recipe_id": "r10",
+      "recipe_desc": "Crispy ginger molassess cookies are an abomination so for many years, I have been on the hunt to find the PERFECT slightly-crispy-on-the-outside-chewy-on-the-inside-cookie. Here it is. You're welcome.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/cooked-cookies-eSFEvmcIu2w",
+      "recipe_category": "dessert",
+      "recipe_tags": ["snack", "baking", "sweet"],
+      "main ingredients": {
+        "first": "molasses",
+        "second": "butter",
+        "third": "sugar",
+        "fourth": "allspice"
+      },
+      "time": {
+        "cook": 25,
+        "prep": 5,
+        "total": 30
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": "Prosecco", "price": 19.95, "LCBO": true },
+        "alt": { "name": "Mulled Wine", "price": null, "LCBO": null },
+        "recipe_cost": "$$",
+        "yield": "42 - 60 cookies",
+        "recipe_link": "https://www.gimmesomeoven.com/chewy-ginger-molasses-cookies/"
+      }
+    },
+    {
+      "recipe_name": "Home Made Granola",
+      "vegetarian": true,
+      "recipe_id": "r11",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r12",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r13",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r14",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r15",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r16",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r17",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r18",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r19",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r20",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r21",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r22",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r23",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r24",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    },
+    {
+      "recipe_name": "",
+      "vegetarian": true,
+      "recipe_id": "r25",
+      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_cuisine": {
+        "region": "North America",
+        "country": "US",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
+      },
+      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_category": "breakfast",
+      "recipe_tags": ["healthy", "homemade", "granola"],
+      "main ingredients": {
+        "first": "oats",
+        "second": "seeds",
+        "third": "coconut oil",
+        "fourth": "nuts"
+      },
+      "time": {
+        "cook": 21,
+        "prep": 5,
+        "total": 26
+      },
+      "difficulty": "easy",
+      "method": ["oven", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": null, "price": null, "LCBO": false },
+        "white": { "name": null, "price": null, "LCBO": true },
+        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "recipe_cost": "$",
+        "yield": "8 cups",
+        "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
+      }
+    }
+  ]
+}
