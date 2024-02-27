@@ -88,7 +88,7 @@
         "flag": "https://www.freepik.com/free-vector/illustration-south-korea-flag_2922518.htm#query=korea%20flag&position=0&from_view=keyword&track=ais&uuid=bb154fc8-9573-4f3a-aac3-5e244b85efe2"
       },
       "recipe_photo": "https://unsplash.com/photos/grilled-meat-platter-RbI-U-WRuLw",
-      "recipe_category": "breakfast",
+      "recipe_category": "Main",
       "recipe_tags": ["instant pot", "decadentslow cooker", "sharing"],
       "main ingredients": {
         "first": "boneless beef short ribs",
@@ -160,7 +160,7 @@
         "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
       },
       "recipe_photo": "https://unsplash.com/photos/a-bowl-of-food-with-broccoli-and-chickpeas-IA0iyiBPfDM",
-      "recipe_category": "Soup",
+      "recipe_category": "Soup/Stew",
       "recipe_tags": ["comfort food", "soup", "cozy"],
       "main ingredients": {
         "first": "chickpeas",

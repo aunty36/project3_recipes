@@ -1,3 +1,21 @@
 body {
   margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    'header header header header'
+    'main main main sidebar'
+    'footer footer footer footer';
+  gap: 1em;
+  background-color: #f2eeeb;
 }
