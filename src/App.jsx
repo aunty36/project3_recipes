@@ -3,6 +3,7 @@ import TopNav from './components/TopNav'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
 import Recipes from './components/Recipes'
+import RecipeTag from './components/RecipeTag'
 import recipes_data from './data/recipes_data.json'
 
 const App = () => {
@@ -17,8 +18,9 @@ const App = () => {
       {recipes_data['recipes'].map((recipe) => (
         <div>
           <Recipes key="recipe_id" recipe={recipe} />
-          {/* {recipe.recipe_tags.map((recipe_tag) => (
-            <RecipeTag recipe_tag={recipe_tag} /> */}
+          {recipe.recipe_tags.map((recipe_tag) => (
+            <RecipeTag recipe_tag={recipe_tag} />
+          ))}
         </div>
       ))}
 

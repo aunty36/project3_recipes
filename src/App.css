@@ -72,3 +72,8 @@ footer {
 .recipecard img {
   width: 400px;
 }
+
+.recipecard_category {
+  background-color: #db4a2b;
+  border-radius: 5px;
+}
