@@ -15,7 +15,7 @@ const App = () => {
         <h4>25 Must Try Recipes from a tiny Toronto apartment test kitchen</h4>
       </div>
       {recipes_data['recipes'].map((recipe) => (
-        <div className="main">
+        <div>
           <Recipes key="recipe_id" recipe={recipe} />
           {/* {recipe.recipe_tags.map((recipe_tag) => (
             <RecipeTag recipe_tag={recipe_tag} /> */}

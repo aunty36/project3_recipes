@@ -10,9 +10,9 @@
         "country": "Italy",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_Italy#/media/File:Flag_of_Italy.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/pasta-with-red-sauce-on-white-ceramic-round-plate-qits91IZv1o",
+      "recipe_photo": "./src/images/r1.jpg",
       "recipe_category": "entree",
-      "recipe_tags": ["weekday warrior", "healthy", "family style"],
+      "recipe_tags": ["WW", "H", "FS"],
       "main ingredients": {
         "first": "pasta",
         "second": "tomatoes",
@@ -51,9 +51,9 @@
         "country": ["Trinidad", "Brazil", "Thailand", "Brazil"],
         "flag": null
       },
-      "recipe_photo": "https://unsplash.com/photos/brown-and-black-ceramic-bowl-on-brown-wooden-table-mWNP70I5o-g",
+      "recipe_photo": "./src/images/r2.jpeg",
       "recipe_category": "dessert",
-      "recipe_tags": ["gluten free", "decadent", "sharing"],
+      "recipe_tags": ["GF", "V", null],
       "main ingredients": {
         "first": "condensed milk",
         "second": "shredded coconut",
@@ -87,9 +87,9 @@
         "country": "Korea",
         "flag": "https://www.freepik.com/free-vector/illustration-south-korea-flag_2922518.htm#query=korea%20flag&position=0&from_view=keyword&track=ais&uuid=bb154fc8-9573-4f3a-aac3-5e244b85efe2"
       },
-      "recipe_photo": "https://unsplash.com/photos/grilled-meat-platter-RbI-U-WRuLw",
+      "recipe_photo": "./src/images/r3.jpg",
       "recipe_category": "Main",
-      "recipe_tags": ["instant pot", "decadentslow cooker", "sharing"],
+      "recipe_tags": ["M", "FS", "GF", "DF"],
       "main ingredients": {
         "first": "boneless beef short ribs",
         "second": "mirin or apple juice",
@@ -123,9 +123,9 @@
         "country": "US - South",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/brown-bread-on-white-ceramic-plate-SDMmCp4on3k",
+      "recipe_photo": "./src/images/r4.jpg",
       "recipe_category": "breakfast",
-      "recipe_tags": ["casserole", "brunch", "overnight prep"],
+      "recipe_tags": ["FS", "OV", null],
       "main ingredients": {
         "first": "Challah bread",
         "second": "eggs",
@@ -159,9 +159,9 @@
         "country": "US",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/a-bowl-of-food-with-broccoli-and-chickpeas-IA0iyiBPfDM",
+      "recipe_photo": "./src/images/r5.jpg",
       "recipe_category": "Soup/Stew",
-      "recipe_tags": ["comfort food", "soup", "cozy"],
+      "recipe_tags": ["OP", "DF", "GF", "V"],
       "main ingredients": {
         "first": "chickpeas",
         "second": "broth",
@@ -197,7 +197,7 @@
       },
       "recipe_photo": "https://unsplash.com/photos/fried-rice-on-ceramic-plate-kdB88FBL8bs",
       "recipe_category": "Main",
-      "recipe_tags": ["comfort food", "one pot", "rice"],
+      "recipe_tags": ["OP", "M", null],
       "main ingredients": {
         "first": "rice",
         "second": "chicken",
@@ -224,6 +224,42 @@
     {
       "recipe_name": "Tarka Dhal",
       "vegetarian": true,
+      "recipe_id": "r7",
+      "recipe_desc": "A hearty and nourishing main or side, tarka is the name given to the infused hot oil which is poured into the dhal to give this classic Indian dish, giving it its complex flavour and incredible aroma. A thinner version of the dhal makes a great soup, or when made thicker, can be eaten with rice or naan.",
+      "recipe_cuisine": {
+        "region": "South Asia",
+        "country": "India",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+      },
+      "recipe_photo": "./src/images/r7.jpg",
+      "recipe_category": "Lunch",
+      "recipe_tags": ["GF", "DF", "V", "H"],
+      "main ingredients": {
+        "first": "red lentils",
+        "second": "tumeric",
+        "third": "coconut milk",
+        "fourth": "ginger"
+      },
+      "time": {
+        "cook": 20,
+        "prep": 5,
+        "total": 25
+      },
+      "difficulty": "easy",
+      "method": ["stovetop", "null"],
+      "rating": "5 stars",
+      "drink_pairing": {
+        "red": { "name": "Cabernet Sauvignon", "price": 11.5, "LCBO": true },
+        "white": { "name": "Pinot Griot", "price": 14.95, "LCBO": true },
+        "alt": { "name": "Iced Chai", "price": null, "LCBO": false }
+      },
+      "recipe_cost": "$",
+      "yield": "4 servings",
+      "recipe_link": "https://www.wearesovegan.com/tarka-dhal/"
+    },
+    {
+      "recipe_name": "Insert New Recipe 8",
+      "vegetarian": true,
       "recipe_id": "r8",
       "recipe_desc": "A hearty and nourishing main or side, tarka is the name given to the infused hot oil which is poured into the dhal to give this classic Indian dish, giving it its complex flavour and incredible aroma. A thinner version of the dhal makes a great soup, or when made thicker, can be eaten with rice or naan.",
       "recipe_cuisine": {
@@ -231,9 +267,9 @@
         "country": "India",
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/sliced-orange-fruit-beside-white-ceramic-bowl-with-green-soup-iEJ3GhgO3jY",
+      "recipe_photo": "./src/images/r7.jpg",
       "recipe_category": "Lunch",
-      "recipe_tags": ["comfort food", "batch cooking", "light"],
+      "recipe_tags": ["GF", "DF", "V", "H"],
       "main ingredients": {
         "first": "red lentils",
         "second": "tumeric",
@@ -267,9 +303,9 @@
         "country": "Canada",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/sliced-orange-fruit-beside-white-ceramic-bowl-with-green-soup-iEJ3GhgO3jY",
+      "recipe_photo": "./src/images/r9.jpg",
       "recipe_category": "entree",
-      "recipe_tags": ["gluten free", "grain free", "quick dinner"],
+      "recipe_tags": ["GF", "GrF", "QD"],
       "main ingredients": {
         "first": "chicken thighs",
         "second": "lemons",
@@ -307,7 +343,7 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/cooked-cookies-eSFEvmcIu2w",
+      "recipe_photo": "./src/images/r10.jpg",
       "recipe_category": "dessert",
       "recipe_tags": ["snack", "baking", "sweet"],
       "main ingredients": {
@@ -343,9 +379,9 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_photo": "./src/images/r11.jpg",
       "recipe_category": "breakfast",
-      "recipe_tags": ["healthy", "homemade", "granola"],
+      "recipe_tags": ["H", "DF", "V"],
       "main ingredients": {
         "first": "oats",
         "second": "seeds",
@@ -381,7 +417,7 @@
       },
       "recipe_photo": "https://unsplash.com/photos/brown-mushroom-oZ0xzQFVCWY",
       "recipe_category": "Dinner",
-      "recipe_tags": ["decadent", "slow cooker", "weeknight dinner"],
+      "recipe_tags": ["V", "GF", "DF"],
       "main ingredients": {
         "first": "portobello mushrooms",
         "second": "egg noodles",
@@ -419,9 +455,9 @@
         "country": "France",
         "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/a-white-plate-topped-with-three-different-types-of-peppers-Izd1K92sR7M",
-      "recipe_category": "Stew",
-      "recipe_tags": ["roasted veg", "gluten free", "easy dinner"],
+      "recipe_photo": "./src/images/r13.jpg",
+      "recipe_category": "Soup/Stew",
+      "recipe_tags": ["V", "GF", "DF", "FS"],
       "main ingredients": {
         "first": "eggplant",
         "second": "zucchini",
@@ -455,9 +491,9 @@
         "country": "Italy",
         "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/a-bowl-of-soup-with-meatballs-and-vegetables-y-wM_h_27Fg",
+      "recipe_photo": "./src/images/r14.jpg",
       "recipe_category": "Stew",
-      "recipe_tags": ["comfort food", "beans", "cozy"],
+      "recipe_tags": ["OP", "M", "GF"],
       "main ingredients": {
         "first": "pancetta",
         "second": "swiss chard",
@@ -491,9 +527,9 @@
         "country": "Italy",
         "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/a-pizza-sitting-on-top-of-a-pan-on-top-of-a-wooden-table-av7p1o-HGB8",
+      "recipe_photo": "./src/images/r15.jpg",
       "recipe_category": "breakfast",
-      "recipe_tags": ["healthy", "homemade", "granola"],
+      "recipe_tags": ["H", "V", "GF", "OP", "FS"],
       "main ingredients": {
         "first": "eggs",
         "second": "cheese",
@@ -527,9 +563,9 @@
         "country": "Greece",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/cooked-food-in-stainless-steel-cooking-pot-I-SxrfASwug",
-      "recipe_category": "Appetizer",
-      "recipe_tags": ["quick", "gluten free", "healthy"],
+      "recipe_photo": "./src/images/r16.jpeg",
+      "recipe_category": "Appetizer/Side",
+      "recipe_tags": ["GF", "V", "H"],
       "main ingredients": {
         "first": "feta",
         "second": "tomatoes",
@@ -563,9 +599,9 @@
         "country": "Greece",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
-      "recipe_category": "Sauce",
-      "recipe_tags": ["dips", "healthy", "spreads"],
+      "recipe_photo": "./src/images/r17.jpg",
+      "recipe_category": "Dips/Sauce",
+      "recipe_tags": ["H", "GF", "V"],
       "main ingredients": {
         "first": "plain yogurt",
         "second": "cucumbers",
@@ -599,9 +635,9 @@
         "country": "Lebanon",
         "flag": "https://en.wikipedia.org/wiki/Lebanon#/media/File:Flag_of_Lebanon.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/a-plate-of-salad-_BD0XoAwTqg",
-      "recipe_category": "Salad",
-      "recipe_tags": ["easy dinner", "fresh", null],
+      "recipe_photo": "./src/images/r18.jpg",
+      "recipe_category": "Lunch/Side",
+      "recipe_tags": ["GF", "DF", "V", "H"],
       "main ingredients": {
         "first": "bulgar",
         "second": "tomatoes",
@@ -635,9 +671,9 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/chocolate-cake-on-white-ceramic-plate-5z1a_EsYs40",
+      "recipe_photo": "./src/images/r19.jpg",
       "recipe_category": "dessert",
-      "recipe_tags": ["decadent", "homemade", "fudgy"],
+      "recipe_tags": ["D", null, null],
       "main ingredients": {
         "first": "unsweetened chocolate",
         "second": "unsalted butter",
@@ -671,9 +707,9 @@
         "country": "Trinidad",
         "flag": "https://en.wikipedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/selective-focus-photography-of-three-yellow-corns-4YMVHIRRC9E",
-      "recipe_category": "Soup",
-      "recipe_tags": ["dinner", "homemade", "lunch"],
+      "recipe_photo": "./src/images/r20.jpg",
+      "recipe_category": "Soup/Stew",
+      "recipe_tags": ["V", "DF", "H"],
       "main ingredients": {
         "first": "split peas",
         "second": "corn",
@@ -707,9 +743,9 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
-      "recipe_category": "Stew",
-      "recipe_tags": ["healthy", "homemade", "granola"],
+      "recipe_photo": "./src/images/r21.jpeg",
+      "recipe_category": "Soup/Stew",
+      "recipe_tags": ["H", "M", "DF"],
       "main ingredients": {
         "first": "Chicken",
         "second": "beans",
@@ -743,9 +779,9 @@
         "country": "India",
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/brown-and-white-pebbles-on-ground-oZ4Krez3X5o",
+      "recipe_photo": "./src/images/r22.jpeg",
       "recipe_category": "Main",
-      "recipe_tags": ["gluten free", "vegan", "quick and easy"],
+      "recipe_tags": ["Gf", "V", "QD", "FS"],
       "main ingredients": {
         "first": "quinoa",
         "second": "cauliflower",
@@ -779,9 +815,9 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/bread-beside-butter-and-milk-qKxELxIH5t8",
+      "recipe_photo": "./src/images/r23.jpeg",
       "recipe_category": "easy bread",
-      "recipe_tags": ["healthy", "homemade", "granola"],
+      "recipe_tags": ["H", "GF", "DF"],
       "main ingredients": {
         "first": "bananas",
         "second": "flour",
@@ -815,9 +851,9 @@
         "country": "Spain",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/sliced-meat-on-white-ceramic-plate-beside-clear-drinking-glass-8pUytjGU-E0",
-      "recipe_category": "Appetizer",
-      "recipe_tags": ["vegan", "gluten free", "spanish inspired"],
+      "recipe_photo": "./src/images/r24.jpeg",
+      "recipe_category": "Appetizer/Side",
+      "recipe_tags": ["V", "GF", "DF"],
       "main ingredients": {
         "first": "potatoes",
         "second": "tomato paste",
@@ -851,9 +887,9 @@
         "country": "Mexico",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "https://unsplash.com/photos/spoon-of-food-h2UH2674Bg4",
+      "recipe_photo": "./src/images/r25.jpeg",
       "recipe_category": "entree",
-      "recipe_tags": ["gluten free", "vegan", "mexican inspired"],
+      "recipe_tags": ["GF", "V", "H", "QD"],
       "main ingredients": {
         "first": "sweet potatoes",
         "second": "chickpeas",

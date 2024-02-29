@@ -9,7 +9,7 @@ body {
   font-weight: 300;
   color: #202d40;
   background-color: #f3f3eb;
-  background-image: url ('./src/images/nav_background_sm.jpeg');
+  /* background-image: url ('./src/images/nav_background_sm.jpeg'); */
 }
 h4 {
   font-family: sans-serif;
@@ -19,13 +19,13 @@ h4 {
 
 .home {
   display: grid;
-  grid-template-rows: 5em 20vh 60vh 5em;
+  grid-template-rows: 5em 20vh max-content 5em;
   grid-template-columns: 1fr 5fr 2fr 1fr;
 
   grid-template-areas:
     'header header header header'
     'hero hero hero hero '
-    'main main sidebar .'
+    'main main main sidebar'
     'footer footer footer footer';
   gap: 1em;
 }
@@ -48,9 +48,27 @@ footer {
 
 .main {
   grid-area: main;
-  flex-direction: column;
 }
 
 .hero {
   grid-area: hero;
+}
+
+.recipecard {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5%;
+}
+
+.recipecard h2 {
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #202d40;
+}
+.recipecard img {
+  width: 400px;
 }
