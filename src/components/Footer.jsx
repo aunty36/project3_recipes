@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <h2>This is my footer</h2>
+      <h2>Website designed by Shaker Web Ink</h2>
     </footer>
   )
 }

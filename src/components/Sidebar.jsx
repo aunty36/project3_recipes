@@ -1,8 +1,8 @@
 const Sidebar = () => {
   return (
-    <div className="sidebar">
+    <sidebar>
       <h2> Key</h2>
-    </div>
+    </sidebar>
   )
 }
 

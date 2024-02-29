@@ -13,9 +13,9 @@ const App = () => {
       <TopNav />
       <div className="hero">
         <img src="./src/images/eats_logo.png" alt="Eats Food Blog logo"></img>
-        <h4>25 Must Try Recipes from a Tiny Test Kitchen.</h4>
+        <h4>25 Must Try Recipes from a Tiny Apartment Test Kitchen.</h4>
       </div>
-      <div className="maincontent">
+      <div classname="main">
         {recipes_data['recipes'].map((recipe) => (
           <div>
             <Recipes key="recipe_id" recipe={recipe} />

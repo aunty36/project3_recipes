@@ -1,7 +1,35 @@
 body {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 10em 30em 60vh 10em;
+  grid-template-areas:
+    'header header'
+    'hero hero'
+    'main sidebar'
+    'footer footer';
+  gap: 1em;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
+}
+
+.header {
+  grid-area: header;
+}
+
+.hero {
+  grid-area: hero;
+}
+.main {
+  grid-area: main;
+}
+
+sidebar {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
 }
 .top_nav {
   display: flex;
@@ -32,6 +60,7 @@ body {
 
 .hero {
   background-color: #f25c05;
+  width: 100vw;
   height: 175px;
   vertical-align: middle;
 }
@@ -46,56 +75,45 @@ h4 {
   text-transform: uppercase;
 }
 
-.maincontent {
-  display: grid;
-  grid-template-columns: 15em 50vw 15em;
-  grid-template-areas:
-    'intro intro intro'
-    'sidebar main main'
-    'footer footer footer';
-  gap: 1em;
-}
-
-/* .sidebar {
-  grid-area: sidebar;
-}
-
-footer {
-  grid-area: footer;
-}
-
-.main {
-  grid-area: main;
-}
-
-.hero {
-  grid-area: hero;
-} */
-
 .recipecard {
+  margin: 5px;
+  padding: 10 10 10 10;
   display: grid;
-  grid-template-columns: auto auto;
-  /* grid-template-rows: 1fr 1fr 4fr 1fr; */
-
+  grid-template-columns: max-content 20em;
   grid-template-areas:
-    'name .'
+    'name name'
     'cat flag'
     'image content'
     'tag tag';
-  /* flex-direction: row;
-  justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   gap: 1em;
   border: solid;
   border-width: 1px;
   border-radius: 5%;
 }
 
-.title {
-  grid-area: name;
+.recipecard img {
+  border-radius: 10%;
 }
 
+.title {
+  grid-area: name / span 1;
+}
+
+.title h2 {
+  color: #db4a2b;
+}
 .cat {
   grid-area: cat;
+  width: max-content;
+  background-color: #db4a2b;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  border-radius: 20%;
 }
 
 .flag {
@@ -111,6 +129,8 @@ footer {
 }
 .content {
   grid-area: content;
+  padding: 10px;
+  font-family: sans-serif;
 }
 
 .recipecard h2 {
