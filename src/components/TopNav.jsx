@@ -1,7 +1,10 @@
 const TopNav = () => {
   return (
-    <header>
-      <h2>This is my top nav</h2>
+    <header className="top_nav">
+      <div> HOME</div>
+      <div>ABOUT</div>
+      <div>RECIPES</div>
+      <div>SEARCH</div>
     </header>
   )
 }
