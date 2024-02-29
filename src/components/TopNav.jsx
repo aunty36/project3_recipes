@@ -1,7 +1,9 @@
 const TopNav = () => {
   return (
     <header className="top_nav">
-      <div> home</div>
+      <div>
+        <a href="#">home</a>
+      </div>
       <div>about</div>
       <div>recipes</div>
 
