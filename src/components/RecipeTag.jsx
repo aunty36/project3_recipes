@@ -1,4 +1,46 @@
 const RecipeTag = (props) => {
-  return <div>props.recipe_tag</div>
+  let tagColour
+  // console.log(props.genre.name)
+  switch (props.recipe_tag) {
+    case 'GF':
+      tagColour = '#515932'
+      break
+    case 'QD':
+      tagColour = '#0CE8B1'
+      break
+    case 'H':
+      tagColour = '#90EFDF'
+      break
+    case 'DF':
+      tagColour = '#B42AFF'
+      break
+    case 'GF':
+      tagColour = '#042940'
+      break
+    case 'M':
+      tagColour = '#03A688'
+      break
+    case 'V':
+      tagColour = '#F2668B'
+      break
+    case 'OP':
+      tagColour = '#D3D92B'
+      break
+    case 'OV':
+      tagColour = '#F21313'
+      break
+    default:
+      tagColour = '#F2DEA2'
+  }
+  return (
+    <div
+      className="recipetag"
+      style={{
+        backgroundColor: tagColour
+      }}
+    >
+      {props.recipe_tag}
+    </div>
+  )
 }
 export default RecipeTag
