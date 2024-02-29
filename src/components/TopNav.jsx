@@ -1,10 +1,20 @@
 const TopNav = () => {
   return (
     <header className="top_nav">
-      <div> HOME</div>
-      <div>ABOUT</div>
-      <div>RECIPES</div>
-      <div>SEARCH</div>
+      <div> home</div>
+      <div>about</div>
+      <div>recipes</div>
+
+      <div>search</div>
+      <div>
+        <input type="text" placeholder="Search.." />
+      </div>
+      <div>
+        <img src="./src/images/ig_logo.png" />
+      </div>
+      <div>
+        <img src="./src/images/yt_logo.png" />
+      </div>
     </header>
   )
 }
