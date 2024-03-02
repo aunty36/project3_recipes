@@ -12,10 +12,10 @@ const TopNav = () => {
         <input type="text" placeholder="Search.." />
       </div>
       <div>
-        <img src="./src/images/ig_logo.png" />
+        <img src="/images/ig_logo.png" />
       </div>
       <div>
-        <img src="./src/images/yt_logo.png" />
+        <img src="/images/yt_logo.png" />
       </div>
     </header>
   )

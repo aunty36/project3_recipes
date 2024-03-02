@@ -1,16 +1,16 @@
-body {
+.app {
   display: grid;
-  grid-template-columns: 1fr 5fr;
-  grid-template-rows: 10em 30em 60vh 10em;
+  grid-template-columns: 15vw 20vw 70vw;
+  grid-template-rows: 5vh 20vh 65vh 10vh;
   grid-template-areas:
-    'header header'
-    'hero hero'
-    'main sidebar'
-    'footer footer';
-  gap: 1em;
+    'header header header'
+    'hero hero hero'
+    '. sidebar main'
+    'footer footer footer';
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  /* background-image: url('/images/background_new.jpeg'); */
 }
 
 .header {
@@ -22,36 +22,42 @@ body {
 }
 .main {
   grid-area: main;
+  overflow: auto;
 }
 
-sidebar {
+aside {
   grid-area: sidebar;
 }
 
-footer {
+.footer {
   grid-area: footer;
+  display: flex;
+  flex-direction: row;
 }
 .top_nav {
   display: flex;
   flex-direction: row;
-  margin: 15px;
-  gap: 2em;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  gap: 2vw;
+  justify-content: center;
+  align-items: center;
   font-family: sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
   color: #202d40;
-  background-color: #f2f2f2;
-  background-image: url ('images/background_new.jpeg');
+  background-color: #f4e2de;
 }
 
 .top_nav a {
   text-decoration: none;
-  color: black;
+  color: #202d40;
 }
 
 .top_nav a:hover {
   text-decoration: none;
-  color: green;
+  color: #007172;
 }
 .top_nav img {
   width: 30px;
@@ -61,7 +67,6 @@ footer {
 .hero {
   background-color: #f25c05;
   width: 100vw;
-  height: 175px;
   vertical-align: middle;
 }
 h4 {
@@ -76,40 +81,31 @@ h4 {
 }
 
 .recipecard {
-  margin: 5px;
-  padding: 10 10 10 10;
+  padding-left: 15px;
   display: grid;
-  grid-template-columns: max-content 20em;
+  grid-template-columns: 30vw 19vw;
   grid-template-areas:
-    'name name'
-    'cat flag'
-    'image content'
-    'tag tag';
+    'name cat'
+    'tag tag'
+    'image content';
   justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 1em;
+  gap: 1vh;
+  width: 50vw;
   border: solid;
   border-width: 1px;
   border-radius: 5%;
 }
 
-.recipecard img {
-  border-radius: 10%;
+.name {
+  grid-area: name / span2;
 }
 
-.title {
-  grid-area: name / span 1;
-}
-
-.title h2 {
-  color: #db4a2b;
-}
 .cat {
   grid-area: cat;
   width: max-content;
   background-color: #db4a2b;
-  padding: 10px;
+  padding: 5px;
   font-family: sans-serif;
   font-weight: 300;
   font-size: 0.75rem;
@@ -126,6 +122,10 @@ h4 {
 
 .tag {
   grid-area: tag;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1vw;
+  width: 70vw;
 }
 .content {
   grid-area: content;
@@ -133,13 +133,43 @@ h4 {
   font-family: sans-serif;
 }
 
+.content p {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
 .recipecard h2 {
   font-family: sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   color: #202d40;
 }
 .recipecard img {
-  max-height: 550px;
+  height: 485px;
+  border-radius: 10%;
+}
+
+.recipecard a {
+  text-decoration: none;
+  color: #f29f05;
+  font-weight: 400;
+}
+
+.recipecard a:hover {
+  text-decoration: none;
+  color: darkgray;
+  font-weight: 400;
+}
+
+.recipecard hr {
+  border-top: 1px;
+  color: #f28705;
+}
+
+.recipe_align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .recipecard_category {
@@ -148,9 +178,9 @@ h4 {
 }
 
 .recipetag {
-  /* display: flex;
-  flex-direction: row; */
-  /* grid-area: tag; */
+  display: flex;
+  flex-direction: row;
+  grid-area: tag;
   width: 30px;
   height: 30px;
   border-radius: 50%;

@@ -10,7 +10,7 @@
         "country": "Italy",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_Italy#/media/File:Flag_of_Italy.svg"
       },
-      "recipe_photo": "./src/images/r1.jpeg",
+      "recipe_photo": "/images/r1.jpeg",
       "recipe_category": "entree",
       "recipe_tags": ["WW", "H", "FS"],
       "main ingredients": {
@@ -51,7 +51,7 @@
         "country": ["Trinidad", "Brazil", "Thailand", "Brazil"],
         "flag": null
       },
-      "recipe_photo": "./src/images/r2.jpeg",
+      "recipe_photo": "/images/r2.jpeg",
       "recipe_category": "dessert",
       "recipe_tags": ["GF", "V", null],
       "main ingredients": {
@@ -87,7 +87,7 @@
         "country": "Korea",
         "flag": "https://www.freepik.com/free-vector/illustration-south-korea-flag_2922518.htm#query=korea%20flag&position=0&from_view=keyword&track=ais&uuid=bb154fc8-9573-4f3a-aac3-5e244b85efe2"
       },
-      "recipe_photo": "./src/images/r3.jpeg",
+      "recipe_photo": "/images/r3.jpeg",
       "recipe_category": "Main",
       "recipe_tags": ["M", "FS", "GF", "DF"],
       "main ingredients": {
@@ -123,7 +123,7 @@
         "country": "US - South",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
       },
-      "recipe_photo": "./src/images/r4.jpeg",
+      "recipe_photo": "/images/r4.jpeg",
       "recipe_category": "breakfast",
       "recipe_tags": ["FS", "OV", null],
       "main ingredients": {
@@ -159,7 +159,7 @@
         "country": "US",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
       },
-      "recipe_photo": "./src/images/r5.jpeg",
+      "recipe_photo": "/images/r5.jpeg",
       "recipe_category": "Soup/Stew",
       "recipe_tags": ["OP", "DF", "GF", "V"],
       "main ingredients": {
@@ -195,7 +195,7 @@
         "country": "Trinidad",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_Trinidad_and_Tobago#/media/File:Flag_of_Trinidad_and_Tobago.svg"
       },
-      "recipe_photo": "./src/images/r6.jpeg",
+      "recipe_photo": "/images/r6.jpeg",
       "recipe_category": "Main",
       "recipe_tags": ["OP", "M", null],
       "main ingredients": {
@@ -231,7 +231,7 @@
         "country": "India",
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
-      "recipe_photo": "./src/images/r7.jpeg",
+      "recipe_photo": "/images/r7.jpeg",
       "recipe_category": "Lunch",
       "recipe_tags": ["GF", "DF", "V", "H"],
       "main ingredients": {
@@ -267,7 +267,7 @@
         "country": "India",
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
-      "recipe_photo": "./src/images/r8.jpeg",
+      "recipe_photo": "/images/r8.jpeg",
       "recipe_category": "Lunch",
       "recipe_tags": ["GF", "DF", "V", "H"],
       "main ingredients": {
@@ -303,7 +303,7 @@
         "country": "Canada",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
       },
-      "recipe_photo": "./src/images/r9.jpg",
+      "recipe_photo": "/images/r9.jpg",
       "recipe_category": "entree",
       "recipe_tags": ["GF", "GrF", "QD"],
       "main ingredients": {
@@ -343,9 +343,9 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r10.jpeg",
+      "recipe_photo": "/images/r10.jpeg",
       "recipe_category": "dessert",
-      "recipe_tags": ["snack", "baking", "sweet"],
+      "recipe_tags": ["D"],
       "main ingredients": {
         "first": "molasses",
         "second": "butter",
@@ -379,7 +379,7 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r11.jpeg",
+      "recipe_photo": "/images/r11.jpeg",
       "recipe_category": "breakfast",
       "recipe_tags": ["H", "DF", "V"],
       "main ingredients": {
@@ -415,7 +415,7 @@
         "country": "French",
         "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
       },
-      "recipe_photo": "./src/images/r12.jpeg",
+      "recipe_photo": "/images/r12.jpeg",
       "recipe_category": "Dinner",
       "recipe_tags": ["V", "GF", "DF"],
       "main ingredients": {
@@ -455,7 +455,7 @@
         "country": "France",
         "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
       },
-      "recipe_photo": "./src/images/r13.jpeg",
+      "recipe_photo": "/images/r13.jpeg",
       "recipe_category": "Soup/Stew",
       "recipe_tags": ["V", "GF", "DF", "FS"],
       "main ingredients": {
@@ -491,7 +491,7 @@
         "country": "Italy",
         "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
       },
-      "recipe_photo": "./src/images/r14.jpeg",
+      "recipe_photo": "/images/r14.jpeg",
       "recipe_category": "Stew",
       "recipe_tags": ["OP", "M", "GF"],
       "main ingredients": {
@@ -527,7 +527,7 @@
         "country": "Italy",
         "flag": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
       },
-      "recipe_photo": "./src/images/r15.jpeg",
+      "recipe_photo": "/images/r15.jpeg",
       "recipe_category": "breakfast",
       "recipe_tags": ["H", "V", "GF", "OP", "FS"],
       "main ingredients": {
@@ -563,7 +563,7 @@
         "country": "Greece",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg"
       },
-      "recipe_photo": "./src/images/r16.jpeg",
+      "recipe_photo": "/images/r16.jpeg",
       "recipe_category": "Appetizer/Side",
       "recipe_tags": ["GF", "V", "H"],
       "main ingredients": {
@@ -599,7 +599,7 @@
         "country": "Greece",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r17.jpeg",
+      "recipe_photo": "/images/r17.jpeg",
       "recipe_category": "Dips/Sauce",
       "recipe_tags": ["H", "GF", "V"],
       "main ingredients": {
@@ -635,7 +635,7 @@
         "country": "Lebanon",
         "flag": "https://en.wikipedia.org/wiki/Lebanon#/media/File:Flag_of_Lebanon.svg"
       },
-      "recipe_photo": "./src/images/r18.jpeg",
+      "recipe_photo": "/images/r18.jpeg",
       "recipe_category": "Lunch/Side",
       "recipe_tags": ["GF", "DF", "V", "H"],
       "main ingredients": {
@@ -671,7 +671,7 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r19.jpeg",
+      "recipe_photo": "/images/r19.jpeg",
       "recipe_category": "dessert",
       "recipe_tags": ["D", null, null],
       "main ingredients": {
@@ -707,7 +707,7 @@
         "country": "Trinidad",
         "flag": "https://en.wikipedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg"
       },
-      "recipe_photo": "./src/images/r20.jpeg",
+      "recipe_photo": "/images/r20.jpeg",
       "recipe_category": "Soup/Stew",
       "recipe_tags": ["V", "DF", "H"],
       "main ingredients": {
@@ -743,7 +743,7 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r21.jpeg",
+      "recipe_photo": "/images/r21.jpeg",
       "recipe_category": "Soup/Stew",
       "recipe_tags": ["H", "M", "DF"],
       "main ingredients": {
@@ -779,7 +779,7 @@
         "country": "India",
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
-      "recipe_photo": "./src/images/r22.jpeg",
+      "recipe_photo": "/images/r22.jpeg",
       "recipe_category": "Main",
       "recipe_tags": ["Gf", "V", "QD", "FS"],
       "main ingredients": {
@@ -815,7 +815,7 @@
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r23.jpeg",
+      "recipe_photo": "/images/r23.jpeg",
       "recipe_category": "easy bread",
       "recipe_tags": ["H", "GF", "DF"],
       "main ingredients": {
@@ -851,7 +851,7 @@
         "country": "Spain",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg"
       },
-      "recipe_photo": "./src/images/r24.jpeg",
+      "recipe_photo": "/images/r24.jpeg",
       "recipe_category": "Appetizer/Side",
       "recipe_tags": ["V", "GF", "DF"],
       "main ingredients": {
@@ -887,7 +887,7 @@
         "country": "Mexico",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
-      "recipe_photo": "./src/images/r25.jpeg",
+      "recipe_photo": "/images/r25.jpeg",
       "recipe_category": "entree",
       "recipe_tags": ["GF", "V", "H", "QD"],
       "main ingredients": {

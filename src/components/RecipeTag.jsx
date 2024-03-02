@@ -2,9 +2,6 @@ const RecipeTag = (props) => {
   let tagColour
   // console.log(props.genre.name)
   switch (props.recipe_tag) {
-    case 'GF':
-      tagColour = '#515932'
-      break
     case 'QD':
       tagColour = '#0CE8B1'
       break
