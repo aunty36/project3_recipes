@@ -1,6 +1,7 @@
 import './App.css'
 import TopNav from './components/TopNav'
 import Footer from './components/Footer'
+import Search from './components/Search'
 import Sidebar from './components/Sidebar'
 import Recipe from './components/Recipe'
 import RecipeTag from './components/RecipeTag'
@@ -11,16 +12,19 @@ const App = () => {
   return (
     <div className="app">
       <TopNav />
-      <div className="hero">
-        <img src="/images/eats_logo.png" alt="Easy Eats logo"></img>
-        <h4>25 Must Try Recipes from a Tiny Apartment Test Kitchen.</h4>
+      <div className="hero"></div>
+      <div className="search">
+        <h1>All Recipes </h1>
+        <Search />
       </div>
       <div className="main">
         {recipes_data['recipes'].map((recipe) => (
           <Recipe key="recipe_id" recipe={recipe} />
         ))}
       </div>
-      <Sidebar />
+      <div className="aside">
+        <Sidebar />
+      </div>
       <Footer />
     </div>
   )

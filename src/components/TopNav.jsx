@@ -2,20 +2,19 @@ const TopNav = () => {
   return (
     <header className="top_nav">
       <div>
-        <a href="#">home</a>
-      </div>
-      <div>about</div>
-      <div>recipes</div>
-
-      <div>search</div>
-      <div>
-        <input type="text" placeholder="Search.." />
+        <a href="#">Recipes</a>
       </div>
       <div>
-        <img src="/images/ig_logo.png" />
+        <a href="#">About</a>
       </div>
       <div>
-        <img src="/images/yt_logo.png" />
+        <img src="/images/eats_logo_whitebg.png" />
+      </div>
+      <div>
+        <a href="#">E-cookbook</a>
+      </div>
+      <div>
+        <a href="#">Shop</a>
       </div>
     </header>
   )
