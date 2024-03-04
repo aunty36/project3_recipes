@@ -11,7 +11,7 @@
         "flag": "https://en.wikipedia.org/wiki/Flag_of_Italy#/media/File:Flag_of_Italy.svg"
       },
       "recipe_photo": "/images/r1.jpeg",
-      "recipe_category": "entree",
+      "recipe_category": "Main/Entree",
       "recipe_tags": ["WW", "H", "FS"],
       "main ingredients": {
         "first": "pasta",
@@ -42,18 +42,13 @@
       "recipe_id": "r2",
       "recipe_desc": "A delicious condensed milk dessert beloved by Caribbean, Latin American and Southeast Asian natives and foodies alike.",
       "recipe_cuisine": {
-        "region": [
-          "Caribbean",
-          "South America",
-          "Latin America",
-          "Southeast Asia"
-        ],
-        "country": ["Trinidad", "Brazil", "Thailand", "Brazil"],
+        "region": "South America",
+        "country": "Brazil",
         "flag": null
       },
       "recipe_photo": "/images/r2.jpeg",
       "recipe_category": "dessert",
-      "recipe_tags": ["GF", "V", null],
+      "recipe_tags": ["GF", "V"],
       "main ingredients": {
         "first": "condensed milk",
         "second": "shredded coconut",
@@ -66,7 +61,7 @@
         "total": 25
       },
       "difficulty": "easy",
-      "method": ["null", "stovetop"],
+      "method": ["stovetop"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": null, "price": null, "LCBO": null },
@@ -88,7 +83,7 @@
         "flag": "https://www.freepik.com/free-vector/illustration-south-korea-flag_2922518.htm#query=korea%20flag&position=0&from_view=keyword&track=ais&uuid=bb154fc8-9573-4f3a-aac3-5e244b85efe2"
       },
       "recipe_photo": "/images/r3.jpeg",
-      "recipe_category": "Main",
+      "recipe_category": "Main/Entree",
       "recipe_tags": ["M", "FS", "GF", "DF"],
       "main ingredients": {
         "first": "boneless beef short ribs",
@@ -125,7 +120,7 @@
       },
       "recipe_photo": "/images/r4.jpeg",
       "recipe_category": "breakfast",
-      "recipe_tags": ["FS", "OV", null],
+      "recipe_tags": ["FS", "OV"],
       "main ingredients": {
         "first": "Challah bread",
         "second": "eggs",
@@ -160,7 +155,7 @@
         "flag": "https://en.wikipedia.org/wiki/Flag_of_the_United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg"
       },
       "recipe_photo": "/images/r5.jpeg",
-      "recipe_category": "Soup/Stew",
+      "recipe_category": "Soups/Stews",
       "recipe_tags": ["OP", "DF", "GF", "V"],
       "main ingredients": {
         "first": "chickpeas",
@@ -174,7 +169,7 @@
         "total": 40
       },
       "difficulty": "easy",
-      "method": ["stovetop", null],
+      "method": ["stovetop"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": "Pinot Noir", "price": 11.5, "LCBO": true },
@@ -189,15 +184,15 @@
       "recipe_name": "Pelau",
       "vegetarian": false,
       "recipe_id": "r6",
-      "recipe_desc": "Though this traditional rice dish of Trinidad can be made vegetarian, it is traditionally made with chicken for an added flavour profile. ",
+      "recipe_desc": "Though this traditional rice dish of Trinidad can be made vegetarian, it is traditionally made with chicken for a deeper flavour profile. ",
       "recipe_cuisine": {
         "region": "Caribbean",
         "country": "Trinidad",
         "flag": "https://en.wikipedia.org/wiki/Flag_of_Trinidad_and_Tobago#/media/File:Flag_of_Trinidad_and_Tobago.svg"
       },
       "recipe_photo": "/images/r6.jpeg",
-      "recipe_category": "Main",
-      "recipe_tags": ["OP", "M", null],
+      "recipe_category": "Main/Entree",
+      "recipe_tags": ["OP", "M"],
       "main ingredients": {
         "first": "rice",
         "second": "chicken",
@@ -246,7 +241,7 @@
         "total": 25
       },
       "difficulty": "easy",
-      "method": ["stovetop", "null"],
+      "method": ["stovetop"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": "Cabernet Sauvignon", "price": 11.5, "LCBO": true },
@@ -258,40 +253,40 @@
       "recipe_link": "https://www.wearesovegan.com/tarka-dhal/"
     },
     {
-      "recipe_name": "Insert New Recipe 8",
+      "recipe_name": "Vegan Chili Cheese Fries",
       "vegetarian": true,
       "recipe_id": "r8",
-      "recipe_desc": "A hearty and nourishing main or side, tarka is the name given to the infused hot oil which is poured into the dhal to give this classic Indian dish, giving it its complex flavour and incredible aroma. A thinner version of the dhal makes a great soup, or when made thicker, can be eaten with rice or naan.",
+      "recipe_desc": "What is life without Fries? However, the truth is that we could all probably stand to be a LITTLE healthier. This recipe combines all the blissful flavour of the pub staple which also being easier on the heart and waistline.",
       "recipe_cuisine": {
-        "region": "South Asia",
-        "country": "India",
+        "region": "North America",
+        "country": "Canada/US",
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
       "recipe_photo": "/images/r8.jpeg",
-      "recipe_category": "Lunch",
+      "recipe_category": "Main/Entree",
       "recipe_tags": ["GF", "DF", "V", "H"],
       "main ingredients": {
-        "first": "red lentils",
-        "second": "tumeric",
-        "third": "coconut milk",
-        "fourth": "ginger"
+        "first": "lentils",
+        "second": "potatos",
+        "third": "applie cider vinegar",
+        "fourth": "paprika"
       },
       "time": {
-        "cook": 20,
-        "prep": 5,
-        "total": 25
+        "cook": 30,
+        "prep": 15,
+        "total": 45
       },
       "difficulty": "easy",
-      "method": ["stovetop", "null"],
+      "method": ["stovetop", "oven"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": "Cabernet Sauvignon", "price": 11.5, "LCBO": true },
         "white": { "name": "Pinot Griot", "price": 14.95, "LCBO": true },
-        "alt": { "name": "Iced Chai", "price": null, "LCBO": false }
+        "alt": { "name": "Steigl Radler", "price": 4.0, "LCBO": true }
       },
       "recipe_cost": "$",
-      "yield": "4 servings",
-      "recipe_link": "https://www.wearesovegan.com/tarka-dhal/"
+      "yield": "3 servings",
+      "recipe_link": "https://minimalistbaker.com/vegan-chili-cheese-fries/"
     },
     {
       "recipe_name": "Easy Lemon-y Herb-y Chicken Thighs",
@@ -304,7 +299,7 @@
         "flag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
       },
       "recipe_photo": "/images/r9.jpg",
-      "recipe_category": "entree",
+      "recipe_category": "Main/Entree",
       "recipe_tags": ["GF", "GrF", "QD"],
       "main ingredients": {
         "first": "chicken thighs",
@@ -358,7 +353,7 @@
         "total": 30
       },
       "difficulty": "easy",
-      "method": ["oven", "null"],
+      "method": ["oven"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": null, "price": null, "LCBO": false },
@@ -394,7 +389,7 @@
         "total": 26
       },
       "difficulty": "easy",
-      "method": ["oven", "null"],
+      "method": ["oven"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": null, "price": null, "LCBO": false },
@@ -430,7 +425,7 @@
         "total": 55
       },
       "difficulty": "medium",
-      "method": ["stovetop", "null"],
+      "method": ["stovetop"],
       "rating": "4.5 stars",
       "drink_pairing": {
         "red": {
@@ -449,14 +444,14 @@
       "recipe_name": "Ratatouille",
       "vegetarian": true,
       "recipe_id": "r13",
-      "recipe_desc": "Roasted vegetables added to a simmering, fresh tomato sauce elevates this French classic will a minimum of fuss.",
+      "recipe_desc": "Roasted vegetables added to a simmering, fresh tomato sauce elevates this French classic with a minimum of fuss.",
       "recipe_cuisine": {
         "region": "Europe",
         "country": "France",
         "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
       },
       "recipe_photo": "/images/r13.jpeg",
-      "recipe_category": "Soup/Stew",
+      "recipe_category": "Soups/Stews",
       "recipe_tags": ["V", "GF", "DF", "FS"],
       "main ingredients": {
         "first": "eggplant",
@@ -485,7 +480,7 @@
       "recipe_name": "Winter Minestrone",
       "vegetarian": false,
       "recipe_id": "r14",
-      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_desc": "Description 14 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nisl accumsan, volutpat erat eget, porttitor enim. Praesent condimentum, metus et pulvinar varius, est odio sollicitudin orci, non aliquam sem velit nec velit. Vivamus quam lectus, maximus quis felis eu, viverra bibendum sem. Ut interdum nibh arcu, at feugiat velit vulputate vitae. Fusce metus enim, dignissim at lacus non, finibus tempor nisi. Quisque ut orci sit amet nisi molestie molestie nec nec leo.",
       "recipe_cuisine": {
         "region": "Europe",
         "country": "Italy",
@@ -506,7 +501,7 @@
         "total": 55
       },
       "difficulty": "medium",
-      "method": ["stovetop", "null"],
+      "method": ["stovetop"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": "Pinot Noir", "price": "15.00", "LCBO": true },
@@ -521,7 +516,7 @@
       "recipe_name": "Make Your Own Frittatas",
       "vegetarian": null,
       "recipe_id": "r15",
-      "recipe_desc": "This easy to assemble, quick meal all-star can be anything your heart desires. Meat loving; vegetarian or vegan. Personally, I am a big fan of a little crispy bacon, any kind of cheese and some fresh herbs as my go-to add-ins.",
+      "recipe_desc": "This easy-to-assemble, quick meal all-star can be anything your heart desires. Meat loving; vegetarian or vegan. Personally, I am a big fan of a little crispy bacon, any kind of cheese and some fresh herbs as my go-to add-ins.",
       "recipe_cuisine": {
         "region": "Europe",
         "country": "Italy",
@@ -557,7 +552,7 @@
       "recipe_name": "Baked Feta",
       "vegetarian": true,
       "recipe_id": "r16",
-      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_desc": "Description 16 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nisl accumsan, volutpat erat eget, porttitor enim. Praesent condimentum, metus et pulvinar varius, est odio sollicitudin orci, non aliquam sem velit nec velit. Vivamus quam lectus, maximus quis felis eu, viverra bibendum sem. Ut interdum nibh arcu, at feugiat velit vulputate vitae. Fusce metus enim, dignissim at lacus non, finibus tempor nisi. Quisque ut orci sit amet nisi molestie molestie nec nec leo.",
       "recipe_cuisine": {
         "region": "Europe",
         "country": "Greece",
@@ -578,7 +573,7 @@
         "total": 20
       },
       "difficulty": "easy",
-      "method": ["oven", "null"],
+      "method": ["oven"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": "Pinot Noir", "price": 14.5, "LCBO": true },
@@ -631,7 +626,7 @@
       "recipe_id": "r18",
       "recipe_desc": "An easy entree into Middle Eastern cuisine.",
       "recipe_cuisine": {
-        "region": "Middle Eastern",
+        "region": "Middle East",
         "country": "Lebanon",
         "flag": "https://en.wikipedia.org/wiki/Lebanon#/media/File:Flag_of_Lebanon.svg"
       },
@@ -653,8 +648,12 @@
       "method": ["various", "null"],
       "rating": "5 stars",
       "drink_pairing": {
-        "red": { "name": null, "price": null, "LCBO": false },
-        "white": { "name": null, "price": null, "LCBO": true },
+        "red": { "name": null, "price": null, "LCBO": null },
+        "white": {
+          "name": "California Chardonnay",
+          "12.50": null,
+          "LCBO": true
+        },
         "alt": { "name": "Cappucino", "price": null, "LCBO": null },
         "recipe_cost": "$",
         "yield": "6 servings",
@@ -662,7 +661,7 @@
       }
     },
     {
-      "recipe_name": "Brownies",
+      "recipe_name": "All Star Brownies",
       "vegetarian": true,
       "recipe_id": "r19",
       "recipe_desc": "Brownies are the antidote to every trouble and worry. The key here is to not skimp on the butter! It makes everything exponentially better.",
@@ -673,7 +672,7 @@
       },
       "recipe_photo": "/images/r19.jpeg",
       "recipe_category": "dessert",
-      "recipe_tags": ["D", null, null],
+      "recipe_tags": ["D"],
       "main ingredients": {
         "first": "unsweetened chocolate",
         "second": "unsalted butter",
@@ -689,9 +688,9 @@
       "method": ["baked", "null"],
       "rating": "5 stars",
       "drink_pairing": {
-        "red": { "name": null, "price": null, "LCBO": false },
-        "white": { "name": null, "price": null, "LCBO": true },
-        "alt": { "name": "Milk", "price": null, "LCBO": null },
+        "red": { "name": null, "price": null, "LCBO": null },
+        "white": { "name": null, "price": null, "LCBO": null },
+        "alt": { "name": "Milk", "price": 4.0, "LCBO": false },
         "recipe_cost": "$",
         "yield": "16-25",
         "recipe_link": "https://smittenkitchen.com/2012/08/my-favorite-brownies/"
@@ -708,7 +707,7 @@
         "flag": "https://en.wikipedia.org/wiki/File:Flag_of_Trinidad_and_Tobago.svg"
       },
       "recipe_photo": "/images/r20.jpeg",
-      "recipe_category": "Soup/Stew",
+      "recipe_category": "Soups/Stews",
       "recipe_tags": ["V", "DF", "H"],
       "main ingredients": {
         "first": "split peas",
@@ -722,12 +721,12 @@
         "total": 70
       },
       "difficulty": "medium",
-      "method": ["stovetop", "null"],
+      "method": ["stovetop"],
       "rating": "5 stars",
       "drink_pairing": {
-        "red": { "name": null, "price": null, "LCBO": false },
-        "white": { "name": null, "price": null, "LCBO": true },
-        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "red": { "name": "Pinot Noir", "price": 15.0, "LCBO": true },
+        "white": { "name": "Pinot Griot", "price": 13.0, "LCBO": true },
+        "alt": { "name": "Carib", "price": 7.5, "LCBO": true },
         "recipe_cost": "$",
         "yield": "10 servings",
         "recipe_link": "https://cookingwithria.com/2020/08/corn-soup-with-dumplings/"
@@ -737,14 +736,14 @@
       "recipe_name": "Chicken Chili",
       "vegetarian": false,
       "recipe_id": "r21",
-      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_desc": "Description 21 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nisl accumsan, volutpat erat eget, porttitor enim. Praesent condimentum, metus et pulvinar varius, est odio sollicitudin orci, non aliquam sem velit nec velit. Vivamus quam lectus, maximus quis felis eu, viverra bibendum sem. Ut interdum nibh arcu, at feugiat velit vulputate vitae. Fusce metus enim, dignissim at lacus non, finibus tempor nisi. Quisque ut orci sit amet nisi molestie molestie nec nec leo.",
       "recipe_cuisine": {
         "region": "North America",
         "country": "US",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
       "recipe_photo": "/images/r21.jpeg",
-      "recipe_category": "Soup/Stew",
+      "recipe_category": "Soups/Stews",
       "recipe_tags": ["H", "M", "DF"],
       "main ingredients": {
         "first": "Chicken",
@@ -780,7 +779,7 @@
         "flag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
       },
       "recipe_photo": "/images/r22.jpeg",
-      "recipe_category": "Main",
+      "recipe_category": "Main/Entree",
       "recipe_tags": ["Gf", "V", "QD", "FS"],
       "main ingredients": {
         "first": "quinoa",
@@ -797,9 +796,9 @@
       "method": ["oven", "stovetop"],
       "rating": "5 stars",
       "drink_pairing": {
-        "red": { "name": null, "price": null, "LCBO": false },
-        "white": { "name": null, "price": null, "LCBO": true },
-        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "red": { "name": "Chiraz", "price": 11.99, "LCBO": true },
+        "white": { "name": "Sauvignon Blanc", "price": 13.5, "LCBO": true },
+        "alt": { "name": "Singha", "price": 8.0, "LCBO": false },
         "recipe_cost": "$",
         "yield": "8 cups",
         "recipe_link": "https://cookieandkate.com/curried-coconut-quinoa-greens-roasted-cauliflower/"
@@ -835,7 +834,7 @@
       "drink_pairing": {
         "red": { "name": null, "price": null, "LCBO": false },
         "white": { "name": null, "price": null, "LCBO": true },
-        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "alt": { "name": "Cappucino", "price": 6.2, "LCBO": false },
         "recipe_cost": "$",
         "yield": "8 cups",
         "recipe_link": "https://cookieandkate.com/healthy-granola-recipe/"
@@ -866,12 +865,12 @@
         "total": 45
       },
       "difficulty": "easy",
-      "method": ["oven", "null"],
+      "method": ["oven"],
       "rating": "5 stars",
       "drink_pairing": {
         "red": { "name": null, "price": null, "LCBO": false },
         "white": { "name": null, "price": null, "LCBO": true },
-        "alt": { "name": "Cappucino", "price": null, "LCBO": null },
+        "alt": { "name": "Cappucino", "price": 6.2, "LCBO": false },
         "recipe_cost": "$",
         "yield": "4 servings",
         "recipe_link": "https://minimalistbaker.com/simple-patatas-bravas/"
@@ -881,14 +880,14 @@
       "recipe_name": "BBQ Sweet Potato Chickpea Tacos",
       "vegetarian": true,
       "recipe_id": "r25",
-      "recipe_desc": "Healthy grocery granola prices getting you down? Punching you in the gut (ha ha). This easy and super customizable breakfast of champions is sure to be one that your wallet will love. Choose your own granola adventure.",
+      "recipe_desc": "Description 25 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nisl accumsan, volutpat erat eget, porttitor enim. Praesent condimentum, metus et pulvinar varius, est odio sollicitudin orci, non aliquam sem velit nec velit. Vivamus quam lectus, maximus quis felis eu, viverra bibendum sem. Ut interdum nibh arcu, at feugiat velit vulputate vitae. Fusce metus enim, dignissim at lacus non, finibus tempor nisi. Quisque ut orci sit amet nisi molestie molestie nec nec leo.",
       "recipe_cuisine": {
         "region": "North America",
         "country": "Mexico",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg"
       },
       "recipe_photo": "/images/r25.jpeg",
-      "recipe_category": "entree",
+      "recipe_category": "Main/Entree",
       "recipe_tags": ["GF", "V", "H", "QD"],
       "main ingredients": {
         "first": "sweet potatoes",
@@ -907,7 +906,7 @@
       "drink_pairing": {
         "red": { "name": null, "price": null, "LCBO": false },
         "white": { "name": null, "price": null, "LCBO": true },
-        "alt": { "name": "Modelo", "price": null, "LCBO": null },
+        "alt": { "name": "Modelo", "price": 7.0, "LCBO": false },
         "recipe_cost": "$",
         "yield": "8 tacos",
         "recipe_link": "https://minimalistbaker.com/bbq-sweet-potato-chickpea-tacos/"

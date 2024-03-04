@@ -17,9 +17,7 @@ const Recipe = (props) => {
         <img src={props.recipe.recipe_photo} />
       </div>
       <div className="content2">
-        <p>
-          <b>Country: </b> {props.recipe.recipe_cuisine['country']}
-        </p>
+        <b>Country: </b> {props.recipe.recipe_cuisine['country']}
         <p>
           <b>What's to Love: </b>
           {props.recipe.recipe_desc}
@@ -31,9 +29,6 @@ const Recipe = (props) => {
           Wanna try it out yourself? Click
           <a href={props.recipe.recipe_link}> here.</a>
         </p>
-      </div>
-      <div>
-        <hr></hr>
       </div>
     </div>
   )
